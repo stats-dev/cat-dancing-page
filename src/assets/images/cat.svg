@@ -1,0 +1,52 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 고양이 몸체 -->
+  <ellipse cx="100" cy="140" rx="45" ry="35" fill="#FF6B35" stroke="#E55A2B" stroke-width="2"/>
+
+  <!-- 고양이 머리 -->
+  <circle cx="100" cy="80" r="40" fill="#FF6B35" stroke="#E55A2B" stroke-width="2"/>
+
+  <!-- 귀 -->
+  <polygon points="75,50 85,25 95,50" fill="#FF6B35" stroke="#E55A2B" stroke-width="2"/>
+  <polygon points="105,50 115,25 125,50" fill="#FF6B35" stroke="#E55A2B" stroke-width="2"/>
+
+  <!-- 귀 안쪽 -->
+  <polygon points="78,47 85,32 92,47" fill="#FFB5A0"/>
+  <polygon points="108,47 115,32 122,47" fill="#FFB5A0"/>
+
+  <!-- 눈 -->
+  <ellipse cx="87" cy="75" rx="8" ry="12" fill="#2C5F2D" transform="rotate(-10 87 75)"/>
+  <ellipse cx="113" cy="75" rx="8" ry="12" fill="#2C5F2D" transform="rotate(10 113 75)"/>
+
+  <!-- 눈동자 -->
+  <ellipse cx="87" cy="75" rx="3" ry="8" fill="#000"/>
+  <ellipse cx="113" cy="75" rx="3" ry="8" fill="#000"/>
+
+  <!-- 눈 하이라이트 -->
+  <circle cx="89" cy="70" r="2" fill="#FFF"/>
+  <circle cx="115" cy="70" r="2" fill="#FFF"/>
+
+  <!-- 코 -->
+  <polygon points="100,85 95,92 105,92" fill="#E55A2B"/>
+
+  <!-- 입 -->
+  <path d="M100,95 Q92,102 85,95" stroke="#E55A2B" stroke-width="2" fill="none"/>
+  <path d="M100,95 Q108,102 115,95" stroke="#E55A2B" stroke-width="2" fill="none"/>
+
+  <!-- 수염 -->
+  <line x1="60" y1="85" x2="78" y2="88" stroke="#000" stroke-width="1"/>
+  <line x1="60" y1="95" x2="78" y2="95" stroke="#000" stroke-width="1"/>
+  <line x1="122" y1="88" x2="140" y2="85" stroke="#000" stroke-width="1"/>
+  <line x1="122" y1="95" x2="140" y2="95" stroke="#000" stroke-width="1"/>
+
+  <!-- 꼬리 -->
+  <path d="M145,130 Q170,100 160,70" stroke="#FF6B35" stroke-width="15" fill="none" stroke-linecap="round"/>
+
+  <!-- 발 -->
+  <ellipse cx="75" cy="170" rx="12" ry="8" fill="#E55A2B"/>
+  <ellipse cx="125" cy="170" rx="12" ry="8" fill="#E55A2B"/>
+  <ellipse cx="85" cy="175" rx="10" ry="6" fill="#E55A2B"/>
+  <ellipse cx="115" cy="175" rx="10" ry="6" fill="#E55A2B"/>
+
+  <!-- 배 무늬 -->
+  <ellipse cx="100" cy="135" rx="20" ry="25" fill="#FFB5A0"/>
+</svg>
